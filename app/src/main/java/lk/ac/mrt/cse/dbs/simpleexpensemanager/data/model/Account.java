@@ -57,6 +57,10 @@ public class Account {
         this.balance = balance;
     }
 
+    public Account(){
+
+    }
+
     public Account(String accountNo, String bankName, String accountHolderName, double balance) {
         this.accountNo = accountNo;
         this.bankName = bankName;
